@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="32774" started-at="2020-07-11T17:40:39Z" finished-at="2020-07-11T17:41:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32774" started-at="2020-07-11T17:40:39Z" finished-at="2020-07-11T17:41:12Z">
+      <class name="tests.NewTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:tests.NewTest@71be98f5]" name="testSetUp" is-config="true" duration-ms="6979" started-at="2020-07-11T12:40:39Z" finished-at="2020-07-11T12:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:tests.NewTest@71be98f5]" name="verifyGooglePageTittle" duration-ms="4789" started-at="2020-07-11T12:40:46Z" finished-at="2020-07-11T12:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.NewTest@71be98f5]" name="tearDown" is-config="true" duration-ms="5738" started-at="2020-07-11T12:40:51Z" finished-at="2020-07-11T12:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NewTest -->
+      <class name="tests.Hello">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:tests.Hello@6fadae5d]" name="testSetUp" is-config="true" duration-ms="4890" started-at="2020-07-11T12:40:57Z" finished-at="2020-07-11T12:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:tests.Hello@6fadae5d]" name="verifyGooglePageTittle" duration-ms="4749" started-at="2020-07-11T12:41:02Z" finished-at="2020-07-11T12:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Hello@6fadae5d]" name="tearDown" is-config="true" duration-ms="5612" started-at="2020-07-11T12:41:06Z" finished-at="2020-07-11T12:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Hello -->
+    </test> <!-- Test -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>
