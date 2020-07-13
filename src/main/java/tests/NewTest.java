@@ -22,7 +22,7 @@ public class NewTest {
 	public void verifyGooglePageTittle() {
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Facebook - Log In or Sign Up");
+		Assert.assertEquals(getTitle, " - Log In or Sign Up");
 	}
 	
 	@AfterClass
